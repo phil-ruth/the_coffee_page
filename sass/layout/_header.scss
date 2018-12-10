@@ -1,0 +1,41 @@
+.header {
+  margin: 3rem 2rem;
+  height: 95vh;
+  background-image: url(../img/mikesh-kaos-42527-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+
+
+  position: relative;
+
+  &__logo-box {
+
+  }
+
+
+
+  &__text-box {
+    //float: right;
+    display: inline-block;
+    width: 100%;
+    // position: absolute;
+    // top: 18%;
+    // left: 50%;
+
+    margin-top: 10rem;
+    text-align: center;
+
+    //transform: translate(-30%, 0);
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+    transition: all .3s;
+  }
+
+  &__btn:hover {
+    transform: scale(1.5) translateY(-.5rem);
+  }
+}

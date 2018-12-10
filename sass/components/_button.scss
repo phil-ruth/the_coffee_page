@@ -1,0 +1,19 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    color: rgba($color-primary-medium, .7);
+    font-size: 5rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  &__scroll-down {
+
+  }
+
+  &--animated {
+    animation: moveInBottom 1s ease-out .75s;
+    animation-fill-mode: backwards; //so you dont see the button before the animation
+  }
+}

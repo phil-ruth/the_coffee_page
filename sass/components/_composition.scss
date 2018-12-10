@@ -1,0 +1,39 @@
+.composition {
+  position: relative;
+
+
+  &__photo {
+    position: absolute;
+    top: 4rem;
+    left: 14rem;
+    width: 30%;
+    transition: all .5s;
+    transition-delay: .1s; //to make the transition back look nice, funky Z index
+    border-radius: 5px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+
+    &--1 {
+      transform: translate(-6rem, -6rem);
+    }
+
+    &--2 {
+      transform: translate(11rem, -6rem);
+    }
+
+    &--3 {
+      transform: translate(11rem, 11rem);
+    }
+
+    &--4 {
+      transform: translate(-6rem, 11rem);
+    }
+
+    &:hover {
+      transform: scale(2.4);
+      z-index: 20;
+      box-shadow: 0 2rem 4rem rgba($color-black, .5);
+      transition-delay: 0;
+    }
+
+  }
+}

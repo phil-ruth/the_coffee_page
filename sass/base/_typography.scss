@@ -1,0 +1,38 @@
+body {
+  font-weight: 400;
+  line-height: 1.7;
+  color: grey;
+  //padding: 3rem;
+  font-size: 1.6rem;
+}
+
+.heading-primary {
+  font-family: Tangerine;
+  font-weight: 700;
+  line-height: 1.2;
+
+  &__main {
+    display: block;
+    font-size: 14rem;
+    letter-spacing: 3rem;
+    color: $color-primary-dark;
+  }
+
+  &__sub {
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 1.2rem;
+    color: $color-primary-medium;
+    text-align: right;
+
+  }
+}
+
+.heading-secondary {
+  font-family: Lato;
+  display: inline-block;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: grey;
+  text-transform: uppercase;
+}

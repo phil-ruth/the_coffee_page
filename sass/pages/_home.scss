@@ -1,0 +1,12 @@
+.about {
+  display: block;
+  margin: 0 2rem;
+  margin-top: -4rem;
+  background-color: rgba($color-primary-light, .3);
+  height: 100vh;
+
+
+  &__text:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
